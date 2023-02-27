@@ -65,6 +65,16 @@ export default function App() {
             </div>
           </div>
         </div>
+        <footer>
+          <a
+            href="https://github.com/Danieli-Costa"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          , by Danieli Costa
+        </footer>
       </div>
     </div>
   );
