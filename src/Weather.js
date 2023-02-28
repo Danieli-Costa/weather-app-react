@@ -67,7 +67,7 @@ export default function App() {
         </div>
         <footer>
           <a
-            href="https://github.com/Danieli-Costa"
+            href="https://github.com/Danieli-Costa/Weather-app"
             target="_blank"
             rel="noreferrer"
           >
