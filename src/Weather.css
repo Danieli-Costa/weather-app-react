@@ -1,0 +1,18 @@
+.Weather {
+  border: 1px solid #dadde1;
+  padding: 18px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 64px;
+}
