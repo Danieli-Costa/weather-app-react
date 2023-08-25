@@ -50,6 +50,7 @@ export default function Weather(props) {
                 placeholder="Enter a city"
                 className="form-control"
                 onChange={handleCityChange}
+                autoComplete="on"
               />
             </div>
             <div className="col-3">
@@ -62,10 +63,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast
-          coordinates={weatherData.coordinates}
-          city={weatherData.city}
-        />
+        <WeatherForecast city={weatherData.city} />
       </div>
     );
   } else {
