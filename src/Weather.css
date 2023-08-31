@@ -38,6 +38,14 @@
     padding: 20px;
   }
 
+  .Weather li {
+    font-size: 15px;
+  }
+
+  .Weather .city {
+    font-size: 23px;
+  }
+
   .form-control,
   .search-btn {
     font-size: 15px;

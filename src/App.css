@@ -12,3 +12,13 @@
   margin: 10px;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .App {
+    margin-top: 180px;
+  }
+
+  .App footer {
+    font-size: 13px;
+  }
+}
