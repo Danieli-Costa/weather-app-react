@@ -53,7 +53,11 @@ export default function Weather(props) {
               autoComplete="on"
             />
 
-            <input type="submit" value="Search " className="btn search-btn" />
+            <input
+              type="submit"
+              value="Search "
+              className="btn search-btn btn-primary"
+            />
           </form>
         </div>
         <WeatherInfo data={weatherData} unit={unit} setUnit={setUnit} />

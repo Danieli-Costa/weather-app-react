@@ -3,6 +3,8 @@
   border-radius: 15px;
   padding: 30px;
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  color: #414148;
 }
 
 .form {
@@ -15,11 +17,11 @@
 .form-control {
   width: 650px;
   padding: 10px;
+  background: (242, 231, 233);
 }
 
 .search-btn {
   width: 150px;
-  background-color: aqua;
   padding: 10px;
   margin-left: 10px;
 }
