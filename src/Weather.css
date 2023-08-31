@@ -1,6 +1,11 @@
 .Weather {
   border: 1px solid #dadde1;
   padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  margin-bottom: 10px;
 }
 
 .Weather ul {
@@ -12,7 +17,6 @@
   list-style: none;
 }
 
-.Weather .temperature {
-  font-weight: bold;
-  font-size: 64px;
+.search-btn {
+  color: red;
 }

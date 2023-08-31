@@ -5,25 +5,25 @@ export default function WeatherForecastDay(props) {
   function maxTemp() {
     let temperature;
     if (props.unit === "celsius") {
-      temperature = Math.round(props.data.temperature.maximum);
+      temperature = props.data.temperature.maximum;
     } else {
-      temperature = Math.round(props.data.temperature.maximum * 9) / 5 + 32;
+      temperature = (props.data.temperature.maximum * 9) / 5 + 32;
     }
-    return `${temperature}°`;
+    return `${Math.round(temperature)}°`;
   }
 
   function minTemp() {
     let temperature;
     if (props.unit === "celsius") {
-      temperature = Math.round(props.data.temperature.minimum);
+      temperature = props.data.temperature.minimum;
     } else {
-      temperature = Math.round(props.data.temperature.minimum * 9) / 5 + 32;
+      temperature = (props.data.temperature.minimum * 9) / 5 + 32;
     }
-    return `${temperature}°`;
+    return `${Math.round(temperature)}°`;
   }
 
   function day() {
-    let date = new Date(props.data.temperature.day * 1000);
+    let date = new Date(props.data.time * 1000);
     let day = date.getDay();
 
     let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];

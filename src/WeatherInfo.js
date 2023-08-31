@@ -26,8 +26,18 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-6">
           <ul>
-            <li>Humidity: {props.data.humidity}%</li>
-            <li>Wind: {Math.round(props.data.wind)} km/h</li>
+            <li>
+              <i class="fa-solid fa-temperature-empty"></i> Feels like:{" "}
+              {Math.round(props.data.feels_like)}°
+            </li>
+            <li>
+              <i class="fa-solid fa-droplet"></i> Humidity:{" "}
+              {props.data.humidity}%
+            </li>
+            <li>
+              <i class="fa-solid fa-wind"></i> Wind:{" "}
+              {Math.round(props.data.wind)} km/h
+            </li>
           </ul>
         </div>
       </div>

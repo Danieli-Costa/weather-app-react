@@ -1,8 +1,7 @@
 import React from "react";
+import "./WeatherTemperature.css";
 
 export default function WeatherTemperature(props) {
-  // const [unit, setUnit] = useState("celsius");
-
   function convertToFahreinheit(event) {
     event.preventDefault();
     props.setUnit("fahreinheit");
@@ -32,9 +31,9 @@ export default function WeatherTemperature(props) {
         <span className="temperature">{Math.round(fahreinheit)}</span>
         <span className="units">
           <a href="/" onClick={convertToCelsius} rel="noopener noreferrer">
-            °C
+            °C{" "}
           </a>
-          |°F
+          | °F
         </span>
       </span>
     );
