@@ -9,20 +9,22 @@
 
 .form {
   margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.form-control {
-  width: 650px;
-  padding: 10px;
+.search-input {
+  border: none;
+  display: inline-block;
+  font-size: 18px;
+  height: 45px;
+  width: 550px;
 }
 
-.search-btn {
-  width: 150px;
-  padding: 10px;
+.btn {
   margin-left: 10px;
+  border: none;
+  font-size: 18px;
+  height: 45px;
+  width: 150px;
 }
 
 .Weather ul {
@@ -47,8 +49,11 @@
     font-size: 23px;
   }
 
-  .form-control,
-  .search-btn {
-    font-size: 15px;
+  .search-input {
+    width: 200px;
+  }
+
+  .btn {
+    width: 100px;
   }
 }

@@ -1,10 +1,6 @@
 .App {
-  margin-top: 150px;
-}
-
-.container {
-  max-width: 900px;
-  margin: 20px auto;
+  margin: 60px auto;
+  max-width: 800px;
 }
 
 .App footer {
@@ -14,10 +10,6 @@
 }
 
 @media (max-width: 400px) {
-  .App {
-    margin-top: 180px;
-  }
-
   .App footer {
     font-size: 13px;
   }
