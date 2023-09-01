@@ -54,7 +54,7 @@ export default function Weather(props) {
                 autoComplete="on"
               />
             </div>
-            <div className="col-3">
+            <div className="col-3 col-sm-6">
               <input
                 type="submit"
                 value="Search "
