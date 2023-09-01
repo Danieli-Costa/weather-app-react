@@ -16,7 +16,6 @@
   display: inline-block;
   font-size: 18px;
   height: 45px;
-  width: 550px;
 }
 
 .btn {
@@ -24,7 +23,6 @@
   border: none;
   font-size: 18px;
   height: 45px;
-  width: 150px;
 }
 
 .Weather ul {
@@ -43,13 +41,5 @@
 
   .Weather .city {
     font-size: 23px;
-  }
-
-  .search-input {
-    width: 120px;
-  }
-
-  .btn {
-    width: 100px;
   }
 }
