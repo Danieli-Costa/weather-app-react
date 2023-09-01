@@ -16,7 +16,7 @@
   color: black;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .WeatherInfo canvas {
     width: 40px;
     height: 40px;

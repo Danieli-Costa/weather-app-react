@@ -16,10 +16,11 @@
   display: inline-block;
   font-size: 18px;
   height: 45px;
+  line-height: 20px;
+  padding: 15px 20px;
 }
 
 .btn {
-  /* margin-left: 10px; */
   border: none;
   font-size: 18px;
   height: 45px;
@@ -34,12 +35,17 @@
   list-style: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .Weather li {
     font-size: 15px;
   }
 
   .Weather .city {
     font-size: 23px;
+  }
+
+  .btn,
+  .search-input {
+    font-size: 15px;
   }
 }
