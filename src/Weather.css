@@ -37,10 +37,6 @@
 }
 
 @media (max-width: 400px) {
-  .Weather {
-    padding: 20px;
-  }
-
   .Weather li {
     font-size: 15px;
   }
@@ -50,10 +46,10 @@
   }
 
   .search-input {
-    width: 150px;
+    width: 160px;
   }
 
   .btn {
-    width: 100px;
+    width: 120px;
   }
 }
